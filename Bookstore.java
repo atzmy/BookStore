@@ -91,6 +91,7 @@ public class BookServlet extends BaseServlet {
         request.getRequestDispatcher("/pages/manager/book_manager.jsp").forward(request, response);
     }
 
+    @Data
 
 }
 
